@@ -1,11 +1,23 @@
+body{
+    
+}
+
 .first-section{
     background-color: #1F2937;
+    padding: 0 250px;
 }
 
 .main-text{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding-bottom: 0px;
+    
+}
+
+.main{
+    width: 300px;
+    
 }
 
 .header-link, .secondary-text{
@@ -16,6 +28,7 @@
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
+    justify-content: space-around;
 }
 
 .header{
@@ -24,6 +37,6 @@
     gap: 18px;
 }
 
-.header-logo.one{
+.header-link.one{
     margin-left: auto;
 }
