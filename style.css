@@ -15,11 +15,18 @@
     font-weight: extra-bold;
     color: #F9FAF8;
     padding-bottom: 0px;
+    width: 400px;
     
 }
+.secondary-text {
+    width: 400px;
+}
 
+button{
+    width: 400px;
+}
 .main{
-    
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
@@ -48,5 +55,7 @@
 img {
     width: 400px;
     height: 250px;
-    margin-left: auto;
+    align-items: flex-end,
+
+    
 }
