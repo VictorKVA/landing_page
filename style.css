@@ -43,6 +43,7 @@ button,.call{
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
@@ -53,9 +54,6 @@ button,.call{
     color: #1F2937;
 }
 
-img {
-    max-width: 100%;    
-}
 
 .navbar {
     height: 60px;
@@ -84,4 +82,46 @@ img {
 
 .navbar ul li {
     margin-left: 20px;
+}
+
+.header {
+    padding: 60px 0;
+    line-height: 1.2;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 400px;
+}
+
+button {
+    max-width: 100px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    margin: 5px;
+    
+}
+
+.boxes img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box p {
+    line-height: 1.2; 
+    padding: 5px 0;  
 }
